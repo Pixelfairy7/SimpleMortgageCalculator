@@ -1,5 +1,6 @@
 # SimpleMortgageCalculator
 Just a simple mortgage calculator using Flexbox and JavaScript. 
+Demo: https://pixelfairy7.github.io/SimpleMortgageCalculator/
 
 # App 1 of 30
 So today I started the #30appschallenge. My first app was a simple loan/mortgage calculator. I've been doing more reading than coding lately and wanted to refresh myself on the basics. 
