@@ -1,0 +1,112 @@
+/*Google Font declarations 
+font-family: 'Raleway', sans-serif;
+font-family: 'Questrial', sans-serif;
+
+background-image: linear-gradient(to right top, #c9a3c1, #d18cbe, #da72b7, #e351ad, #eb12a0);
+
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right top, #174cdf, #1846d3, #1941c7, #193bbc, #1836b0);
+    height: 100vh;
+}
+
+
+  header h1{
+    text-align: center;
+    margin: 1em auto;
+    width: 30%;
+    font-family: 'Questrial', sans-serif;
+    font-size: 3em;
+    color: #eae8ec;
+}
+
+
+.loan-info-box{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-color: #110815;
+    
+}
+.loan-output{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #3B345A;
+}
+
+.loan-output p{
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5em;
+    color: #eae8ec;
+    padding: 10px;
+    margin: .5em;
+}
+
+
+
+#payment-explanation {
+    font-size: .9em;
+}
+
+#loan-payment{
+    font-weight: 800;
+    font-size: 2.1em;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.form-fields{
+    margin: .5em 0;
+    padding: 10px;
+}
+label{
+    margin-right: 5px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5em;
+    color: #eae8ec;
+}
+input{
+    height: 2em;
+    float:right;
+    
+}
+.btn-area{
+    margin: 5px;
+    display:flex;
+    justify-content: center;
+}
+.btn{
+    width: 45%;
+    padding: 10px;
+    margin: 25px 5px 25px 5px;
+    border-radius: 25px;   
+    border: none;
+    text-transform: uppercase;
+    cursor:pointer;
+
+}
+
+#btn-submit{
+    background-color: #1dd1a1;
+    color: #eae8ec;
+}
